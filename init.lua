@@ -387,7 +387,7 @@ do
   ---@diagnostic disable-next-line: missing-fields
   require('tokyonight').setup {
     styles = {
-      comments = { italic = false }, -- Disable italics in comments
+      comments = { italic = true }, -- Enable italics in comments
     },
   }
 
@@ -688,7 +688,7 @@ do
   local servers = {
     -- clangd = {},
     -- gopls = {},
-    -- pyright = {},
+    pyright = {},
     -- rust_analyzer = {},
     --
     -- Some languages (like typescript) have entire language plugins that can be useful:
